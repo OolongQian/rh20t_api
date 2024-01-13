@@ -157,6 +157,7 @@ def get_conf_from_dir_name(scene_dir_name:str, confs:list):
     elif 'cfg_0005' in scene_dir_name: conf_num = 5
     elif 'cfg_0006' in scene_dir_name: conf_num = 6
     elif 'cfg_0007' in scene_dir_name: conf_num = 7
+    elif 'cfg_0008' in scene_dir_name: conf_num = 8
     else: raise NotImplementedError
     for _c in confs: 
         if _c.conf_num == conf_num: return _c
